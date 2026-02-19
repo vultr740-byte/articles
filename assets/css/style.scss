@@ -9,3 +9,14 @@
 
 /* Optional: tighten header spacing */
 .site-header { padding-top: 10px; padding-bottom: 10px; }
+
+/* Prevent long URLs from stretching the layout */
+.post-content, .page-content {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.post-content a, .page-content a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
