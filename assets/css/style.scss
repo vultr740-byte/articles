@@ -82,3 +82,32 @@ pre {
 
 /* Keep hamburger label at the end */
 .site-nav label[for="nav-trigger"] { margin-left: auto; }
+
+/* Make header layout behave on mobile (minima uses absolute-positioned menu) */
+@media screen and (max-width: 600px) {
+  .site-nav {
+    position: absolute; /* keep minima behavior */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+  }
+
+  /* Keep lang switch visible on the bar */
+  .site-nav .lang-switch {
+    order: 0;
+    padding: 6px 8px;
+    margin: 0;
+  }
+
+  /* Keep hamburger at the far right */
+  .site-nav label[for="nav-trigger"] {
+    order: 2;
+    margin-left: auto;
+  }
+
+  /* Menu panel should still open below */
+  .site-nav input:checked ~ .trigger {
+    order: 3;
+  }
+}
