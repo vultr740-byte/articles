@@ -3,42 +3,26 @@
 
 @import "minima";
 
-/* Hide site title + site description to avoid duplicate titles */
+/* =========================
+   Custom site overrides
+   Loaded by GitHub Pages as /assets/main.css
+   ========================= */
+
+/* Hide site title + description in header */
 .site-header .site-title { display: none !important; }
 .site-header .site-description { display: none !important; }
 
-/* Optional: tighten header spacing */
-.site-header { padding-top: 10px; padding-bottom: 10px; }
-
-/* Prevent long URLs from stretching the layout */
-.post-content, .page-content {
+/* Prevent long URLs from stretching layout */
+.post-content, .page-content, p, li, a, details, summary {
   overflow-wrap: anywhere;
   word-break: break-word;
 }
 
-.post-content a, .page-content a {
-  overflow-wrap: anywhere;
-  word-break: break-word;
-}
-
-/* Extra hardening for long strings/URLs in paragraphs & lists */
-.post-content p, .post-content li, .page-content p, .page-content li {
-  overflow-wrap: anywhere;
-  word-break: break-word;
-}
-
-/* If a long URL ends up inside a code/pre block, allow wrapping there too */
 pre, code {
   white-space: pre-wrap;
   word-break: break-word;
 }
 
-/* Make <details> blocks look tidy and also wrap long URLs inside */
-details { margin: 0 0 1rem 0; }
-details summary { cursor: pointer; }
-details a, details, details li { overflow-wrap: anywhere; word-break: break-word; }
-
-/* === Anti horizontal-overflow hardening (especially for mobile WebViews) === */
 html, body {
   max-width: 100%;
   overflow-x: hidden;
@@ -46,30 +30,21 @@ html, body {
 
 * { min-width: 0; }
 
-.post-content, .page-content, p, li, a, details, summary {
-  overflow-wrap: anywhere;
-  word-break: break-word;
-}
+pre { max-width: 100%; overflow-x: auto; }
 
-pre {
-  max-width: 100%;
-  overflow-x: auto;
-}
-
-/* === Tighten bottom spacing (temporary: minimal spacing) === */
+/* Tighten bottom spacing + hide footer (can revisit later) */
 .post-content { margin-bottom: 0 !important; }
 .page-content { padding-bottom: 0 !important; }
 .site-footer { display: none !important; }
 
-/* === HEADER_REBUILD_V2 === */
+/* =========================
+   HEADER v2 (only lang switch + hamburger)
+   ========================= */
 
-/* Two-item topbar: [Lang switch] [Hamburger]. Must be vertically centered. */
-
-/* Neutralize minima header/nav layout rules */
 .site-header {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
-  min-height: 56px; /* keep existing-ish height, but stable */
+  min-height: 56px;
   display: flex;
   align-items: center;
 }
@@ -83,7 +58,6 @@ pre {
   height: 56px;
 }
 
-/* Only two visible controls */
 .site-header .header-lang,
 .site-header .header-menu {
   display: flex;
@@ -103,7 +77,6 @@ pre {
   line-height: 1;
 }
 
-/* Hamburger button */
 .site-header .header-menu {
   position: static !important;
   float: none !important;
@@ -124,7 +97,6 @@ pre {
 
 .site-header .header-menu .menu-icon > svg { display: block; }
 
-/* Dropdown panel */
 .site-header .header-menu .trigger {
   display: none;
   position: absolute;
@@ -151,7 +123,9 @@ pre {
   .site-header .header-menu .trigger { right: 10px; }
 }
 
-/* Debug alignment (temporary) */
+/* =========================
+   Debug alignment colors (TEMP)
+   ========================= */
 .site-header { background: rgba(255, 0, 0, 0.08) !important; }
 .site-header .wrapper.header-row { background: rgba(0, 255, 0, 0.08) !important; }
 .site-header .header-lang { background: rgba(0, 0, 255, 0.10) !important; }
