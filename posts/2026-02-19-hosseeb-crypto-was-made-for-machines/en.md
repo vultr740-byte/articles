@@ -1,6 +1,13 @@
 # Crypto was not made for humans
 
-Source: [https://x.com/hosseeb/status/2024136762424185208](https://x.com/hosseeb/status/2024136762424185208)
+
+<details>
+  <summary>Source</summary>
+
+- https://x.com/hosseeb/status/2024136762424185208
+</details>
+
+---
 
 ---
 

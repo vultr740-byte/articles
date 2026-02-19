@@ -1,6 +1,13 @@
 # 加密货币不是为人类而造的
 
-原文来源：[https://x.com/hosseeb/status/2024136762424185208](https://x.com/hosseeb/status/2024136762424185208)
+
+<details>
+  <summary>来源 / Source</summary>
+
+- https://x.com/hosseeb/status/2024136762424185208
+</details>
+
+---
 
 ---
 
