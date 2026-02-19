@@ -147,3 +147,18 @@ pre {
 .site-header .header-lang .lang-switch {
   line-height: 1;
 }
+
+/* Proper vertical centering: override minima float+line-height rules */
+.site-header .site-title {
+  float: none !important;
+  line-height: 1 !important;
+}
+
+.site-header .site-nav {
+  float: none !important;
+  line-height: 1 !important;
+}
+
+.site-header .header-row {
+  min-height: 56px;
+}
