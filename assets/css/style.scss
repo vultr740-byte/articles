@@ -61,32 +61,31 @@ pre {
 .page-content { padding-bottom: 0 !important; }
 .site-footer { display: none !important; }
 
-/* === Header layout + language switch (single source of truth) === */
+/* === HEADER_REBUILD_V2 === */
 
-/* In this site we hide the site title, but keep layout sane */
+/* Two-item topbar: [Lang switch] [Hamburger]. Must be vertically centered. */
+
+/* Neutralize minima header/nav layout rules */
+.site-header {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 56px; /* keep existing-ish height, but stable */
+  display: flex;
+  align-items: center;
+}
+
 .site-header .wrapper.header-row {
+  width: 100%;
   display: flex;
   align-items: center;
-  gap: 12px;
-  min-height: 56px;
-}
-
-/* Override minima floats/line-heights so flex centering works */
-.site-header .site-title,
-.site-header .site-nav {
-  float: none !important;
-  line-height: 1 !important;
-}
-
-.site-header .site-title {
-  display: flex;
-  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
   height: 56px;
 }
 
-/* Language switch sits OUTSIDE the menu/nav */
-.site-header .header-lang {
-  margin-left: auto;
+/* Only two visible controls */
+.site-header .header-lang,
+.site-header .header-menu {
   display: flex;
   align-items: center;
   height: 56px;
@@ -96,92 +95,24 @@ pre {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 6px 10px;
+  height: 36px;
+  padding: 0 12px;
   font-weight: 600;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
   line-height: 1;
 }
 
-/* Hamburger / nav area (keep minima behavior but vertically centered) */
-.site-header .site-nav {
-  display: flex;
-  align-items: center;
-  height: 56px;
-}
-
-.site-header .site-nav label[for="nav-trigger"],
-.site-header .site-nav .menu-icon {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center;
-  height: 56px;
-  padding-top: 0 !important;
-}
-
-.site-header .site-nav .menu-icon > svg { display: block; }
-
-@media screen and (max-width: 600px) {
-  .site-header .wrapper.header-row { gap: 8px; }
-}
-
-
-/* === HEADER_REBUILD === */
-
-/* Deterministic header layout: lang switch and hamburger share the same vertical center */
-
-.site-header { padding-top: 8px; padding-bottom: 8px; }
-
-.site-header .wrapper.header-row {
-  display: flex;
-  align-items: center;
-  min-height: 44px;
-  gap: 10px;
-}
-
-/* Title is hidden on this site, but keep it from affecting layout */
-.site-header .site-title {
-  display: none !important;
-}
-
-.site-header .header-spacer { flex: 1; }
-
-.site-header .header-lang {
-  display: flex;
-  align-items: center;
-  height: 44px;
-}
-
-.site-header .header-lang .lang-switch {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 32px;
-  padding: 0 10px;
-  font-weight: 600;
-  border: 1px solid #e8e8e8;
-  border-radius: 8px;
-}
-
-/* Menu button */
+/* Hamburger button */
 .site-header .header-menu {
-  position: static !important; /* override minima mobile absolute positioning */
+  position: static !important;
   float: none !important;
   line-height: 1 !important;
-  display: flex;
-  align-items: center;
-  height: 44px;
 }
 
 .site-header .header-menu .nav-trigger { display: none; }
 
-.site-header .header-menu .menu-btn {
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  cursor: pointer;
-}
-
+.site-header .header-menu .menu-btn,
 .site-header .header-menu .menu-icon {
   display: inline-flex !important;
   align-items: center !important;
@@ -193,32 +124,26 @@ pre {
 
 .site-header .header-menu .menu-icon > svg { display: block; }
 
-/* Dropdown panel (keeps old behavior but as an overlay so header alignment stays intact) */
+/* Dropdown panel */
 .site-header .header-menu .trigger {
   display: none;
   position: absolute;
-  top: calc(8px + 44px);
+  top: 56px;
   right: 15px;
   background: #fdfdfd;
   border: 1px solid #e8e8e8;
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 8px 0;
   min-width: 180px;
-  z-index: 10;
+  z-index: 20;
 }
 
 .site-header .header-menu .page-link {
   display: block;
-  padding: 8px 12px;
+  padding: 10px 12px;
   margin: 0;
 }
 
-.site-header .header-menu .page-link:hover {
-  text-decoration: none;
-  background: rgba(0,0,0,0.04);
-}
-
-/* Checkbox-driven toggle */
 .site-header .header-menu input:checked ~ .trigger { display: block; }
 
 @media screen and (max-width: 600px) {
