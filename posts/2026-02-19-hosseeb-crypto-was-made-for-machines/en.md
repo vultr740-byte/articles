@@ -80,6 +80,4 @@ I think it's this: crypto's failure modes, which always made it feel broken for 
 
 This change won't happen overnight. But a technology often snaps into place once its complement finally arrives. GPS had to wait for the smartphone, TCP/IP had to wait for the browser. For crypto, we might just have found it in AI agents.
 
----
-
 Source: [Original link](https://x.com/hosseeb/status/2024136762424185208)
