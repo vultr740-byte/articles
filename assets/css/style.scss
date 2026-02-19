@@ -66,3 +66,19 @@ pre {
   margin-left: 12px;
   font-weight: 600;
 }
+
+/* Header: keep language switch visible (not inside hamburger menu) */
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.site-nav .lang-switch {
+  display: inline-block;
+  margin-left: 0;
+  padding: 6px 8px;
+}
+
+/* Keep hamburger label at the end */
+.site-nav label[for="nav-trigger"] { margin-left: auto; }
