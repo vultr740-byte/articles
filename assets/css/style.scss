@@ -137,3 +137,13 @@ pre {
   .site-header .header-row { gap: 8px; }
   .site-header .header-lang { margin-right: 4px; }
 }
+
+/* Align lang switch consistently */
+.site-header .header-lang {
+  display: flex;
+  align-items: center;
+}
+
+.site-header .header-lang .lang-switch {
+  line-height: 1;
+}
