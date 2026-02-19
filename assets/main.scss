@@ -116,25 +116,11 @@ a:hover { text-decoration: underline; }
 .home-subtitle { margin: 0 0 16px; color: #666; font-size: 14px; }
 
 .post-list { list-style: none; padding: 0; margin: 0; }
-.post-item { padding: 14px 0; border-bottom: 1px solid var(--border); }
+.post-item { padding: 20px 0; border-bottom: 1px solid var(--border); }
 
 .post-row { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; }
-.post-row .post-title { margin: 0; font-size: 18px; line-height: 1.35; }
-.post-date { color: #777; font-size: 12px; white-space: nowrap; }
-
-.post-links { margin-top: 8px; display: flex; gap: 8px; }
-.pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 28px;
-  padding: 0 10px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  font-size: 13px;
-  line-height: 1;
-}
-.pill.ghost { border-style: dashed; color: #444; }
+.post-row .post-title { margin: 0; font-size: 20px; line-height: 1.4; }
+.post-date { color: #777; font-size: 13px; white-space: nowrap; }
 
 .post-content, .page-content, p, li, a, details, summary {
   overflow-wrap: anywhere;
