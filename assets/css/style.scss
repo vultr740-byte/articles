@@ -3,8 +3,9 @@
 
 @import "minima";
 
-/* Hide site title in the header */
+/* Hide site title + site description to avoid duplicate titles */
 .site-header .site-title { display: none !important; }
+.site-header .site-description { display: none !important; }
 
-/* Optional: reduce header height a bit */
+/* Optional: tighten header spacing */
 .site-header { padding-top: 10px; padding-bottom: 10px; }
