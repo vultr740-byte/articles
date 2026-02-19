@@ -2,10 +2,6 @@
 title: "Crypto was not made for humans"
 ---
 
-Source: [Original link](https://x.com/hosseeb/status/2024136762424185208)
-
----
-
 We're a crypto fund. If anyone should believe in crypto, it's us.
 
 And yet, when we sign a deal to invest into a startup, we don't sign a smart contract. We sign a legal contract. The startup does the same. Neither of us are comfortable doing the deal without a legal agreement.
@@ -83,3 +79,7 @@ So what's the takeaway?
 I think it's this: crypto's failure modes, which always made it feel broken for humans, in retrospect were never bugs. They were simply signs that we humans were the wrong users. In 10 years, we will look back at amazement that we ever subjected humans to wrestle with crypto directly.
 
 This change won't happen overnight. But a technology often snaps into place once its complement finally arrives. GPS had to wait for the smartphone, TCP/IP had to wait for the browser. For crypto, we might just have found it in AI agents.
+
+---
+
+Source: [Original link](https://x.com/hosseeb/status/2024136762424185208)
