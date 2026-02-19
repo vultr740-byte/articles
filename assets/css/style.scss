@@ -1,0 +1,10 @@
+---
+---
+
+@import "minima";
+
+/* Hide site title in the header */
+.site-header .site-title { display: none !important; }
+
+/* Optional: reduce header height a bit */
+.site-header { padding-top: 10px; padding-bottom: 10px; }
