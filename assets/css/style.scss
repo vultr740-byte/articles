@@ -20,3 +20,15 @@
   overflow-wrap: anywhere;
   word-break: break-word;
 }
+
+/* Extra hardening for long strings/URLs in paragraphs & lists */
+.post-content p, .post-content li, .page-content p, .page-content li {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* If a long URL ends up inside a code/pre block, allow wrapping there too */
+pre, code {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
