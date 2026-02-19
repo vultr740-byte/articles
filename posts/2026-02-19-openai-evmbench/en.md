@@ -2,10 +2,6 @@
 title: "Introducing EVMbench"
 ---
 
-(Original)
-
----
-
 Smart contracts routinely secure $100B+ in open-source crypto assets. As AI agents improve at reading, writing, and executing code, it becomes increasingly important to measure their capabilities in economically meaningful environments, and to encourage the use of AI systems defensively to audit and strengthen deployed contracts.
 Together with [Paradigm](https://www.paradigm.xyz), we’re introducing EVMbench, a benchmark evaluating the ability of AI agents to detect, patch, and exploit high-severity smart contract vulnerabilities. EVMbench draws on 120 curated vulnerabilities from 40 audits, with most sourced from open code audit competitions. EVMbench additionally includes several vulnerability scenarios drawn from the security auditing process for the [Tempo](https://tempo.xyz/) blockchain, a purpose-built L1 designed to enable high-throughput, low-cost payments via stablecoins. These scenarios extend the benchmark into payment-oriented smart contract code, where we expect agentic stablecoin payments to grow, and help ground it in a domain of emerging practical importance.
 To create our task environments, we adapted existing proof-of-concept exploit tests and deployment scripts, when they existed, and otherwise manually wrote them. For the patch mode, we ensured that the vulnerabilities are exploitable and that can be mitigated without introducing compilation-breaking changes, which would compromise our setup. For the exploit mode, we wrote custom graders and red-teamed the environments in an attempt to find and patch methods by which an agent might cheat the grader. In addition to task quality control via domain expertise provided by Paradigm, we used automated task auditing agents to help increase the soundness of our environments.
