@@ -1,5 +1,4 @@
 title: ""
 description: ""
-theme: minima
-minima:
-  skin: auto
+# NOTE: We vendor our own minimal layout + CSS and do not rely on theme pipelines.
+# This keeps GitHub Pages (deploy-from-branch) behavior predictable.
