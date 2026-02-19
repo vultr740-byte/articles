@@ -4,7 +4,7 @@
 <details>
   <summary>来源 / Source</summary>
 
-- https://x.com/hosseeb/status/2024136762424185208
+- [hosseeb / 2024136762424185208](https://x.com/hosseeb/status/2024136762424185208)
 </details>
 
 ---
