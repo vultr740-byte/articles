@@ -162,3 +162,54 @@ pre {
 .site-header .header-row {
   min-height: 56px;
 }
+
+/* === Header alignment (desktop + mobile) === */
+.site-header .wrapper.header-row {
+  display: flex;
+  align-items: center;
+  min-height: 56px;
+}
+
+/* Ensure title doesn't set its own vertical alignment */
+.site-header .site-title {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  line-height: 1 !important;
+}
+
+/* Make lang area match header height */
+.site-header .header-lang {
+  display: flex;
+  align-items: center;
+  height: 56px;
+}
+
+/* Force nav (hamburger) to vertically center */
+.site-header .site-nav {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  line-height: 1 !important;
+  float: none !important;
+}
+
+.site-header .site-nav label[for="nav-trigger"] {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+  height: 56px;
+  padding-top: 0 !important;
+}
+
+.site-header .site-nav .menu-icon {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+  height: 56px;
+  padding-top: 0 !important;
+}
+
+.site-header .site-nav .menu-icon > svg {
+  display: block;
+}
