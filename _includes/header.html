@@ -1,11 +1,12 @@
 <header class="site-header" role="banner">
-
-  <div class="wrapper">
+  <div class="wrapper header-row">
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
-    <nav class="site-nav">
+    <div class="header-lang">
       {%- include lang-switch.html -%}
+    </div>
 
+    <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">
         <span class="menu-icon">
