@@ -1,0 +1,38 @@
+---
+title: "Articles"
+items:
+  - date: "2026-02-19"
+    title: "EVMbench 简介"
+    zh: "/posts/2026-02-19-openai-evmbench/zh"
+    en: "/posts/2026-02-19-openai-evmbench/en"
+    source: "https://openai.com/index/introducing-evmbench/"
+
+  - date: "2026-02-19"
+    title: "加密货币不是为人类而造的"
+    zh: "/posts/2026-02-19-hosseeb-crypto-was-made-for-machines/zh"
+    en: "/posts/2026-02-19-hosseeb-crypto-was-made-for-machines/en"
+    source: "https://x.com/hosseeb/status/2024136762424185208"
+---
+
+<div class="home">
+  <p class="home-subtitle">默认中文 · 每篇可一键切换 EN/中文</p>
+
+  {% assign items = page.items %}
+  <ul class="post-list">
+    {% for it in items %}
+      <li class="post-item">
+        <div class="post-row">
+          <a class="post-title" href="{{ it.zh | relative_url }}">{{ it.title }}</a>
+          <span class="post-date">{{ it.date }}</span>
+        </div>
+        <div class="post-links">
+          <a class="pill" href="{{ it.zh | relative_url }}">中文</a>
+          <a class="pill" href="{{ it.en | relative_url }}">EN</a>
+          {% if it.source %}
+            <a class="pill ghost" href="{{ it.source }}" target="_blank" rel="noopener">原文</a>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
