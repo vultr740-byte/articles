@@ -32,3 +32,8 @@ pre, code {
   white-space: pre-wrap;
   word-break: break-word;
 }
+
+/* Make <details> blocks look tidy and also wrap long URLs inside */
+details { margin: 0 0 1rem 0; }
+details summary { cursor: pointer; }
+details a, details, details li { overflow-wrap: anywhere; word-break: break-word; }
