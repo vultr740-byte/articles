@@ -113,21 +113,25 @@ a:hover { text-decoration: underline; }
 .post-title { margin: 0 0 16px; font-size: 36px; line-height: 1.2; }
 
 /* Home: div-based layout (no ul/li bullets) */
-.post-item { padding: 24px 0; }
+.post-item { padding: 28px 0; border-bottom: 1px solid var(--border); }
+
+.post-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
 
 .post-title {
   display: block;
   margin: 0;
-  font-size: 48px;
-  line-height: 1.1;
-  padding-bottom: 14px;
-  border-bottom: 1px solid var(--border);
+  font-size: 56px;
+  line-height: 1.05;
 }
 
-.post-meta {
-  padding-top: 10px;
+.post-date {
   color: #777;
-  font-size: 13px;
+  font-size: 24px;
   white-space: nowrap;
 }
 

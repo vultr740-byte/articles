@@ -12,8 +12,10 @@ items:
 <div class="home">
   {% for it in page.items %}
     <div class="post-item">
-      <a class="post-title" href="{{ it.zh | relative_url }}">{{ it.title }}</a>
-      <div class="post-meta">{{ it.date }}</div>
+      <div class="post-row">
+        <a class="post-title" href="{{ it.zh | relative_url }}">{{ it.title }}</a>
+        <span class="post-date">{{ it.date }}</span>
+      </div>
     </div>
   {% endfor %}
 </div>
