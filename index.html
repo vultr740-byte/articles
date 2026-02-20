@@ -10,14 +10,10 @@ items:
 ---
 
 <div class="home">
-  <ul class="post-list">
-    {% for it in page.items %}
-      <li class="post-item">
-        <a class="post-title" href="{{ it.zh | relative_url }}">{{ it.title }}</a>
-        <div class="post-meta">
-          <span class="post-date">{{ it.date }}</span>
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
+  {% for it in page.items %}
+    <div class="post-item">
+      <a class="post-title" href="{{ it.zh | relative_url }}">{{ it.title }}</a>
+      <div class="post-meta">{{ it.date }}</div>
+    </div>
+  {% endfor %}
 </div>

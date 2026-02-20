@@ -112,8 +112,7 @@ a:hover { text-decoration: underline; }
 
 .post-title { margin: 0 0 16px; font-size: 36px; line-height: 1.2; }
 
-/* Home: remove bullets + add underline under each title */
-.post-list { list-style: none !important; padding: 0; margin: 0; }
+/* Home: div-based layout (no ul/li bullets) */
 .post-item { padding: 24px 0; }
 
 .post-title {
@@ -125,8 +124,12 @@ a:hover { text-decoration: underline; }
   border-bottom: 1px solid var(--border);
 }
 
-.post-meta { padding-top: 10px; }
-.post-date { color: #777; font-size: 13px; white-space: nowrap; }
+.post-meta {
+  padding-top: 10px;
+  color: #777;
+  font-size: 13px;
+  white-space: nowrap;
+}
 
 .post-content, .page-content, p, li, a, details, summary {
   overflow-wrap: anywhere;
