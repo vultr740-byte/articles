@@ -23,3 +23,6 @@ items:
     {% endfor %}
   </ul>
 </div>
+
+<div id="css-ver" style="position:fixed;bottom:8px;right:8px;opacity:.65;font-size:12px;font-family:ui-monospace,Menlo,Consolas,monospace;background:rgba(255,255,255,0.8);border:1px solid rgba(0,0,0,0.08);padding:4px 6px;border-radius:8px;z-index:9999;"></div>
+<script>(()=>{const v=getComputedStyle(document.documentElement).getPropertyValue('--css-build').trim();const el=document.getElementById('css-ver');el.textContent=v?('css ' + v):'css (missing --css-build)';})();</script>
