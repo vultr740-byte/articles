@@ -118,6 +118,15 @@ a:hover { text-decoration: underline; }
 
 .post-row { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; }
 .post-row .post-title { margin: 0; font-size: 56px; line-height: 1.05; }
+
+/* Debug (temporary): make homepage titles visually obvious */
+.post-row .post-title {
+  background: rgba(255, 0, 0, 0.12);
+  border: 2px solid rgba(255, 0, 0, 0.45);
+  border-radius: 12px;
+  padding: 6px 10px;
+}
+.post-row .post-title .dbg { color: rgba(255,0,0,0.9); font-weight: 700; }
 .post-date { color: #777; font-size: 13px; white-space: nowrap; }
 
 .post-content, .page-content, p, li, a, details, summary {
