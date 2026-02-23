@@ -57,7 +57,8 @@ Investors were prepared - expectant, even - that the long tail would be hit hard
 
 It wasn’t until ServiceNow’s Q3 26 report that the mechanism of reflexivity became clearer.
 
-SERVICENOW NET NEW ACV GROWTH DECELERATES TO 14% FROM 23%; ANNOUNCES 15% WORKFORCE REDUCTION AND ‘STRUCTURAL EFFICIENCY PROGRAM’; SHARES FALL 18% | Bloomberg, October 2026
+> **SERVICENOW NET NEW ACV GROWTH DECELERATES TO 14% FROM 23%; ANNOUNCES 15% WORKFORCE REDUCTION AND ‘STRUCTURAL EFFICIENCY PROGRAM’; SHARES FALL 18%**  
+> _Bloomberg, October 2026_
 
 SaaS wasn’t “dead”. There was still a cost-benefit-analysis to running and supporting in-house builds. But in-house was an option, and that factored into pricing negotiations. Perhaps more importantly, the competitive landscape had changed. AI had made it easier to develop and ship new features, so differentiation collapsed. Incumbents were in a race to the bottom on pricing - a knife-fight with both each other and with the new crop of upstart challengers that popped up. Emboldened by the leap in agentic coding capabilities and with no legacy cost structure to protect, these aggressively took share.
 
@@ -127,7 +128,8 @@ There was only so much price-matching and aggregating to do. The biggest way to 
 
 Agents went looking for faster and cheaper options than cards. Most settled on using stablecoins via Solana or Ethereum L2s, where settlement was near-instant and the transaction cost was measured in fractions of a penny.
 
-MASTERCARD Q1 2027: NET REVENUES +6% Y/Y; PURCHASE VOLUME GROWTH SLOWS TO +3.4% Y/Y FROM +5.9% PRIOR QUARTER; MANAGEMENT NOTES “AGENT-LED PRICE OPTIMIZATION” AND “PRESSURE IN DISCRETIONARY CATEGORIES” | Bloomberg, April 29 2027
+> **MASTERCARD Q1 2027: NET REVENUES +6% Y/Y; PURCHASE VOLUME GROWTH SLOWS TO +3.4% Y/Y FROM +5.9% PRIOR QUARTER; MANAGEMENT NOTES “AGENT-LED PRICE OPTIMIZATION” AND “PRESSURE IN DISCRETIONARY CATEGORIES”**  
+> _Bloomberg, April 29 2027_
 
 Mastercard’s Q1 2027 report was the point of no return. Agentic commerce went from being a product story to a plumbing story. MA dropped 9% the following day. Visa did too, but pared losses after analysts pointed out its stronger positioning in stablecoin infrastructure.
 
@@ -159,7 +161,8 @@ They write essentially all code. The highest performing of them are substantiall
 
 AI has created new jobs. Prompt engineers. AI safety researchers. Infrastructure technicians. Humans are still in the loop, coordinating at the highest level or directing for taste. For every new role AI created, though, it rendered dozens obsolete. The new roles paid a fraction of what the old ones did.
 
-U.S. JOLTS: JOB OPENINGS FALL BELOW 5.5M; UNEMPLOYED-TO-OPENINGS RATIO CLIMBS TO ~1.7, HIGHEST SINCE AUG 2020 | Bloomberg, Oct 2026
+> **U.S. JOLTS: JOB OPENINGS FALL BELOW 5.5M; UNEMPLOYED-TO-OPENINGS RATIO CLIMBS TO ~1.7, HIGHEST SINCE AUG 2020**  
+> _Bloomberg, Oct 2026_
 
 The hiring rate had been anemic all year, but October ‘26 JOLTS print provided some definitive data. Job openings fell below 5.5 million, a 15% decline YoY.
 
@@ -219,7 +222,8 @@ Those assumptions died somewhere between the first agentic coding demo and the Q
 
 As many public SaaS companies traded to 5-8x EBITDA, PE-backed software companies sat on balance sheets at marks reflecting acquisition valuations on multiples of revenue that didn’t exist anymore. Managers eased the marks down gradually, 100 cents, 92, 85, all while public comps said 50.
 
-MOODY’S DOWNGRADES $18B OF PE-BACKED SOFTWARE DEBT ACROSS 14 ISSUERS, CITING ‘SECULAR REVENUE HEADWINDS FROM AI-DRIVEN COMPETITIVE DISRUPTION’; LARGEST SINGLE-SECTOR ACTION SINCE ENERGY IN 2015 | Moody’s Investors Service, April 2027
+> **MOODY’S DOWNGRADES $18B OF PE-BACKED SOFTWARE DEBT ACROSS 14 ISSUERS, CITING ‘SECULAR REVENUE HEADWINDS FROM AI-DRIVEN COMPETITIVE DISRUPTION’; LARGEST SINGLE-SECTOR ACTION SINCE ENERGY IN 2015**  
+> _Moody’s Investors Service, April 2027_
 
 Everyone remembers what happened after the downgrade. Industry veterans had already seen the playbook following the 2015 energy downgrades.
 
@@ -227,7 +231,8 @@ Software-backed loans began defaulting in Q3 2027. PE portfolio companies in inf
 
 Zendesk was the smoking gun.
 
-ZENDESK MISSES DEBT COVENANTS AS AI-DRIVEN CUSTOMER SERVICE AUTOMATION ERODES ARR; $5B DIRECT LENDING FACILITY MARKED TO 58 CENTS; LARGEST PRIVATE CREDIT SOFTWARE DEFAULT ON RECORD | Financial Times, September 2027
+> **ZENDESK MISSES DEBT COVENANTS AS AI-DRIVEN CUSTOMER SERVICE AUTOMATION ERODES ARR; $5B DIRECT LENDING FACILITY MARKED TO 58 CENTS; LARGEST PRIVATE CREDIT SOFTWARE DEFAULT ON RECORD**  
+> _Financial Times, September 2027_
 
 In 2022, Hellman & Friedman and Permira had taken Zendesk private for $10.2 billion. The debt package was $5 billion in direct lending, the largest ARR-backed facility in history at the time, led by Blackstone with Apollo, Blue Owl and HPS all in the lending group. The loan was explicitly structured around the assumption that Zendesk’s annual recurring revenue would remain recurring. At roughly 25x EBITDA, the leverage only made sense if it did.
 
@@ -253,7 +258,8 @@ The losses hit balance sheets built to hold illiquid assets against long-duratio
 
 Compared to the banking system, insurance regulators had been docile - even complacent - but this was the wake-up call. Already uneasy about private credit concentrations at life insurers, they began downgrading the risk-based capital treatment of these assets. That forced the insurers to either raise capital or sell assets, neither of which was possible at attractive terms in a market already seizing up.
 
-NEW YORK, IOWA STATE REGULATORS MOVE TO TIGHTEN CAPITAL TREATMENT FOR CERTAIN PRIVATELY RATED CREDIT HELD BY LIFE INSURERS; NAIC GUIDANCE EXPECTED TO INCREASE RBC FACTORS AND TRIGGER ADDITIONAL SVO SCRUTINY | Reuters, Nov 2027
+> **NEW YORK, IOWA STATE REGULATORS MOVE TO TIGHTEN CAPITAL TREATMENT FOR CERTAIN PRIVATELY RATED CREDIT HELD BY LIFE INSURERS; NAIC GUIDANCE EXPECTED TO INCREASE RBC FACTORS AND TRIGGER ADDITIONAL SVO SCRUTINY**  
+> _Reuters, Nov 2027_
 
 When Moody’s put Athene’s financial strength rating on negative outlook, Apollo’s stock dropped 22% in two sessions. Brookfield, KKR, and the others followed.
 
@@ -267,7 +273,8 @@ See, it is never the losses themselves that cause the crisis. It’s recognizing
 
 ## The Mortgage Question
 
-ZILLOW HOME VALUE INDEX FALLS 11% YOY IN SAN FRANCISCO, 9% IN SEATTLE, 8% IN AUSTIN; FANNIE MAE FLAGS ‘ELEVATED EARLY-STAGE DELINQUENCIES’ IN ZIP CODES WITH >40% TECH/FINANCE EMPLOYMENT | Zillow / Fannie Mae, June 2028
+> **ZILLOW HOME VALUE INDEX FALLS 11% YOY IN SAN FRANCISCO, 9% IN SEATTLE, 8% IN AUSTIN; FANNIE MAE FLAGS ‘ELEVATED EARLY-STAGE DELINQUENCIES’ IN ZIP CODES WITH >40% TECH/FINANCE EMPLOYMENT**  
+> _Zillow / Fannie Mae, June 2028_
 
 This month the Zillow Home Value Index fell 11% year-over-year in San Francisco, 9% in Seattle and 8% in Austin. This hasn’t been the only worrying headline. Last month, Fannie Mae flagged higher early-stage delinquency from jumbo-heavy ZIP codes - areas that are populated by 780+ credit score borrowers and typically “bulletproof”.
 
