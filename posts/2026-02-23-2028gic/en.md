@@ -135,7 +135,7 @@ Agents went looking for faster and cheaper options than cards. Most settled on u
 
 Mastercard’s Q1 2027 report was the point of no return. Agentic commerce went from being a product story to a plumbing story. MA dropped 9% the following day. Visa did too, but pared losses after analysts pointed out its stronger positioning in stablecoin infrastructure.
 
-https://substackcdn.com/image/fetch/$s_!gW0T!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70ccc118-1388-4602-a5bd-bbc4284208f6_1024x541.png
+![](https://substackcdn.com/image/fetch/$s_!gW0T!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70ccc118-1388-4602-a5bd-bbc4284208f6_1024x541.png)
 
 Agentic commerce routing around interchange posed a far greater risk to card-focused banks and mono-line issuers, who collected the majority of that 2-3% fee and had built entire business segments around rewards programs funded by the merchant subsidy.
 
@@ -157,7 +157,7 @@ AI is now a general intelligence that improves at the very tasks humans would re
 
 Today, AI agents handle many-weeks-long research and development tasks. The exponential steamrolled our conceptions of what was possible, even though every year Wharton professors tried to fit the data to a new sigmoid.
 
-https://substackcdn.com/image/fetch/$s_!kA4x!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0bc01ebb-a883-4e5c-bd2b-fa7aaa872edb_1600x1059.png
+![](https://substackcdn.com/image/fetch/$s_!kA4x!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0bc01ebb-a883-4e5c-bd2b-fa7aaa872edb_1600x1059.png)
 
 They write essentially all code. The highest performing of them are substantially smarter than almost all humans at almost all things. And they keep getting cheaper.
 
