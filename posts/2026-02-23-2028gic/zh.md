@@ -256,7 +256,6 @@ AI 代理在相当于一年时间里已能自主处理客服。Zendesk 定义的
 
 黑石、KKR 与 Apollo 的高管表示软件敞口仅占资产的 7–13%。可控。每一份卖方报告与 fintwit 信贷账号都在重复：私募信贷拥有永久资本（permanent capital）。它们能吸收否则会击穿杠杆银行的损失。
 
-永久资本。这个词出现在每次财报电话会与每封投资者信里，用来安抚。它成了一种咒语。而和多数
 永久资本（Permanent capital）。这个词出现在每一场旨在安抚市场的财报电话会和投资者信里。它成了一句口号。而和大多数口号一样，没有人去注意那些更细微的含义。它实际意味着什么……
 
 在过去十年里，大型另类资产管理公司收购了人寿保险公司，并把它们变成了融资载体。阿波罗（Apollo）收购了 Athene。布鲁克菲尔德（Brookfield）收购了 American Equity。KKR 拿下了 Global Atlantic。其逻辑很优雅：年金存款提供了稳定、久期很长的负债基础。管理人把这些存款投向自己发起的私募信贷，然后“两头收费”——一边在保险端赚取利差，一边在资管端收取管理费。这是一台“费上加费”的永动机，只在一个条件下才能运转得很好。
@@ -376,9 +375,3 @@ AI 能力演进的速度快过制度适应的速度。政策回应按照意识�
 金丝雀仍然活着（The canary is still alive）。
 
 致谢（Acknowledgements）：感谢 [Hunterbrook](https://open.substack.com/users/539423-hunterbrook?utm_source=mentions) 的 Sam Koppelman 帮助校对。我们的合著者 LOTUS 的 Alap Shah 提供了本文的想法——这篇由 CitriniResearch 写成，但他在一个名为 “The Intelligence Explosion” 的系列里还写了其他文章，我们强烈推荐阅读。你可以在[这里](https://open.substack.com/pub/alapshah1/p/the-global-intelligence-crisis?r=1g6uar&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)找到它。
-
-No posts
-
----
-
-来源：https://www.citriniresearch.com/p/2028gic
