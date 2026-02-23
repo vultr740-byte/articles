@@ -1,13 +1,12 @@
 ---
-title: "THE 2028 GLOBAL INTELLIGENCE CRISIS"
+title: "2028 全球智能危机"
 source: "https://www.citriniresearch.com/p/2028gic"
 date: "2026-02-23"
 ---
 
-# THE 2028 GLOBAL INTELLIGENCE CRISIS
+# 2028 全球智能危机
 
-来源： https://www.citriniresearch.com/p/2028gic  
-抓取：2026-02-23（通过 web_fetch 的 readability 抽取）
+来源：https://www.citriniresearch.com/p/2028gic
 
 ---
 
