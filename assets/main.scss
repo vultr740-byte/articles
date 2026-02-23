@@ -142,5 +142,13 @@ pre, code {
   word-break: break-word;
 }
 
+/* Images: never overflow the content column */
+.post-content img,
+.page-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Hide footer entirely (we don't render one in the custom layout) */
 .site-footer { display: none !important; }
