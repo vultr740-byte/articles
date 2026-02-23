@@ -6,8 +6,6 @@ date: "2026-02-23"
 
 # 2028 全球智能危机
 
-来源：https://www.citriniresearch.com/p/2028gic
-
 ---
 
 如果我们的 AI 看多继续被证明是对的……而这实际上却是利空的呢？
@@ -380,3 +378,7 @@ AI 能力演进的速度快过制度适应的速度。政策回应按照意识�
 致谢（Acknowledgements）：感谢 [Hunterbrook](https://open.substack.com/users/539423-hunterbrook?utm_source=mentions) 的 Sam Koppelman 帮助校对。我们的合著者 LOTUS 的 Alap Shah 提供了本文的想法——这篇由 CitriniResearch 写成，但他在一个名为 “The Intelligence Explosion” 的系列里还写了其他文章，我们强烈推荐阅读。你可以在[这里](https://open.substack.com/pub/alapshah1/p/the-global-intelligence-crisis?r=1g6uar&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)找到它。
 
 No posts
+
+---
+
+来源：https://www.citriniresearch.com/p/2028gic
