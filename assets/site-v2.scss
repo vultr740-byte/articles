@@ -2,5 +2,8 @@
 ---
 
 /* Minimal, predictable CSS without theme imports. */
-@import "./main";
+@import "main";
+
+/* NOTE: GitHub Pages sass load path doesn't include /assets by default.
+   We rely on _sass/main.scss for imports instead. */
 
