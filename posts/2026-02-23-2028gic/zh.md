@@ -16,7 +16,7 @@ date: "2026-02-23"
 
 这是 CitriniResearch 2028 年 6 月的宏观备忘录，记录“全球智力危机”的演进与余波。
 
-https://substackcdn.com/image/fetch/$s_!rCTy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ede0b37-f3be-4787-90ff-10cb24719fdc_710x1119.jpeg
+![](https://substackcdn.com/image/fetch/$s_!rCTy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ede0b37-f3be-4787-90ff-10cb24719fdc_710x1119.jpeg)
 
 CitriniResearch
 
@@ -138,8 +138,9 @@ MASTERCARD 2027 年 Q1：净营收同比 +6%；购买额增速从前一季度 +5
 
 Mastercard 的 2027 年 Q1 报告成了不可逆的拐点。代理式商业从“产品故事”变成了“管道故事”。MA 次日下跌 9%。Visa 也跌了，但在分析师指出其在稳定币基础设施上的更强定位后收窄跌幅。
 
-https://substackcdn.com/image/fetch/$s_!gW0T!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70ccc118-1388-4602-a5bd-bbc4284208f6_1024x541.png
-
+![](
+![](https://substackcdn.com/image/fetch/$s_!gW0T!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70ccc118-1388-4602-a5bd-bbc4284208f6_1024x541.png)
+)
 代理式商业绕开交换费，对以银行卡为核心的银行和单一业务发行机构构成更大风险——它们拿走了大部分 2–3% 的费用，并围绕由商户补贴支撑的奖励积分计划建立起完整业务线。
 
 美国运通（AXP US）受打击最大：一方面白领裁员削弱其客户基础，另一方面代理绕开交换费削弱其收入模型。Synchrony（SYF US）、Capital One（COF US）和 Discover（DFS US）在接下来数周内也都下跌超过 10%。
@@ -160,8 +161,9 @@ AI 现在是一种通用智能，并且会在那些人类本会转岗去做的�
 
 今天，AI 代理可以完成原本需要数周的研发任务。指数增长碾平了我们对“可能性”的想象——即便沃顿的教授们每年都试图把数据拟合成新的 S 曲线。
 
-https://substackcdn.com/image/fetch/$s_!kA4x!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0bc01ebb-a883-4e5c-bd2b-fa7aaa872edb_1600x1059.png
-
+![](
+![](https://substackcdn.com/image/fetch/$s_!kA4x!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0bc01ebb-a883-4e5c-bd2b-fa7aaa872edb_1600x1059.png)
+)
 它们几乎写了所有代码。其中表现最强的一批，在几乎所有事情上都比几乎所有人类更聪明。而且它们还在变得更便宜。
 
 AI 的确创造了新工作：提示词工程师、AI 安全研究员、基础设施技术员。人类仍在高层协调、或以品味做方向把控。然而，AI 每创造一个新角色，就会让几十个旧角色变得多余。而这些新角色的薪酬，只是旧岗位的一小部分。
@@ -182,8 +184,9 @@ INDEED：软件、金融、咨询岗位发布量大幅下降，“生产率计�
 
 但这一轮的诱因，并非周期性的。
 
-https://substackcdn.com/image/fetch/$s_!0WIw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d84258d-d811-4963-8914-16b104e6744f_1024x541.png
-
+![](
+![](https://substackcdn.com/image/fetch/$s_!0WIw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d84258d-d811-4963-8914-16b104e6744f_1024x541.png)
+)
 AI 变得更强、更便宜。公司裁员，然后用省下来的钱买更多 AI 能力，从而可以裁更多人。被取代的人减少开支。向消费者卖东西的公司卖得更少、变弱，为了守住利润又投入更多 AI。AI 变得更强、更便宜。
 
 一个没有自然刹车的反馈回路。
@@ -204,8 +207,9 @@ AI 变得更强、更便宜。公司裁员，然后用省下来的钱买更多 A
 
 我们有位朋友，2025 年还是 Salesforce 的高级产品经理：头衔、医保、401k、年薪 18 万美元。她在第三轮裁员中失业。找了六个月工作后，她开始给 Uber 开车。收入降到 4.5 万。重点不在于个体故事，而在于二阶数学：把这种动态乘以每个主要大都市里几十万名工人。过度资质的劳动力涌入服务与零工经济，压低了原本就艰难的存量工人薪酬。行业性扰动扩散成全经济范围的工资压缩。
 
-https://substackcdn.com/image/fetch/$s_!CLd4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f6a0cb1-86ff-4b99-811c-1652d5577fba_1024x541.jpeg
-
+![](
+![](https://substackcdn.com/image/fetch/$s_!CLd4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f6a0cb1-86ff-4b99-811c-1652d5577fba_1024x541.jpeg)
+)
 以“以人为中心”的剩余就业池还有一次修正正在逼近，而且就在我们写作之时发生：自动化配送与自动驾驶车辆开始在吸收第一波被取代工人的零工经济中扩散。
 
 到 2027 年 2 月，很清楚的一点是：仍有工作的专业人士花钱也像自己可能是下一个。他们为了不被裁，工作强度加倍（很大程度上靠 AI 帮助）。升职加薪的希望消失。储蓄率上升，消费走软。
@@ -272,8 +276,9 @@ AI 代理在相当于一年时间里已能自主处理客服。Zendesk 定义的
 
 事情从那里开始变得更复杂。这些公司不仅打造了保险端的“永动机”，还搭建了一套精巧的离岸架构，旨在通过监管套利最大化回报。美国的保险公司签发年金，然后把风险分出给其自有的百慕大或开曼关联再保险公司——该实体受更宽松的监管约束，对同一资产允许计提更少资本。这个关联方又通过离岸 SPV 引入外部资金，形成新一层交易对手，与保险公司一起投向由同一母公司资管部门发起的私募信贷。
 
-https://substackcdn.com/image/fetch/$s_!yyoF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c777d0f-75a4-4e42-909d-812165aa351d_1077x702.jpeg
-
+![](
+![](https://substackcdn.com/image/fetch/$s_!yyoF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c777d0f-75a4-4e42-909d-812165aa351d_1077x702.jpeg)
+)
 评级机构（其中一些本身也由 PE 持有）并未成为透明度的典范，这让（几乎）没有任何人感到意外。不同公司、不同资产负债表之间交织成网，其不透明程度令人震惊。当底层贷款违约时，究竟是谁在承担损失，在实时层面几乎无法回答。
 
 2027 年 11 月的崩盘，标志着市场认知从“也许只是一次常见的周期性回撤”，转向“更令人不安的东西”。在 FOMC 11 月紧急会议上，美联储主席 Kevin Warsh 将其称为“一串相互关联、押注白领生产率增长的雏菊链（daisy chain）”。
@@ -296,8 +301,9 @@ https://substackcdn.com/image/fetch/$s_!yyoF!,f_auto,q_auto:good,fl_progressive:
 
 2008 年的贷款，从第一天起就不健康。2028 年的贷款，从第一天起是健康的。只是世界在贷款签出去之后……变了。人们用贷款押注一个他们再也负担不起去相信的未来。
 
-https://substackcdn.com/image/fetch/$s_!-8kB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2087b521-70e2-4069-8390-c8f0dbd53e9f_1024x559.png
-
+![](
+![](https://substackcdn.com/image/fetch/$s_!-8kB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2087b521-70e2-4069-8390-c8f0dbd53e9f_1024x559.png)
+)
 2027 年，我们提示过一些“看不见的压力”的早期迹象：HELOC 提款、401(k) 提前支取、信用卡债务飙升，而抵押贷款付款仍保持正常。随着失业发生、招聘冻结、奖金缩水，这些优质家庭的债务收入比翻倍。
 
 他们仍能支付月供，但只能通过停止所有可选消费、耗尽储蓄，并推迟任何房屋维护或改善。他们在技术上仍按时还款，但距离陷入困境只差一次额外冲击，而 AI 能力的轨迹表明，这种冲击正在到来。随后我们看到，在旧金山、西雅图、曼哈顿和奥斯汀，违约率开始飙升，即便全国平均仍处在历史常态范围内。
@@ -306,8 +312,9 @@ https://substackcdn.com/image/fetch/$s_!-8kB!,f_auto,q_auto:good,fl_progressive:
 
 尽管担忧正在累积，我们还没有进入全面的抵押贷款危机。违约率上升了，但仍远低于 2008 年水平。真正的威胁在于它的趋势。
 
-https://substackcdn.com/image/fetch/$s_!XiXV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4fa31f0b-2188-4936-9ebb-88ccf78d51ff_1598x810.png
-
+![](
+![](https://substackcdn.com/image/fetch/$s_!XiXV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4fa31f0b-2188-4936-9ebb-88ccf78d51ff_1598x810.png)
+)
 “智能替代螺旋”（The Intelligence Displacement Spiral）如今有两个金融层面的加速器，推动实体经济的下行。
 
 劳动力替代、抵押贷款担忧、私募市场动荡。三者相互强化。而传统政策工具箱（降息、QE）可以处理金融引擎，却无法处理实体经济引擎，因为实体经济引擎并不是由紧缩的金融条件驱动的。它是由 AI 让人类智能变得不再稀缺、也不再那么值钱所驱动。你可以把利率降到零，买下市场上所有 MBS，以及所有违约的软件 LBO 债……
@@ -320,8 +327,9 @@ https://substackcdn.com/image/fetch/$s_!XiXV!,f_auto,q_auto:good,fl_progressive:
 
 第一个负反馈回路发生在实体经济：AI 能力提升，薪酬总额缩小，支出走软，利润率收紧，企业购买更多能力，能力继续提升。随后它转向金融：收入受损打击抵押贷款，银行损失收紧信贷，财富效应破裂，反馈回路加速。而这两者都因政府的政策回应不足而被加剧——坦白说，政府似乎有些困惑。
 
-https://substackcdn.com/image/fetch/$s_!0sEd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e7b551a-0d98-4485-a4fd-d7825349bac3_1024x559.png
-
+![](
+![](https://substackcdn.com/image/fetch/$s_!0sEd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e7b551a-0d98-4485-a4fd-d7825349bac3_1024x559.png)
+)
 这个系统并不是为这种危机设计的。联邦政府的收入基础本质上是对人类时间征税。人们工作，企业支付工资，政府抽成。个人所得税与工资税在正常年份构成财政收入的脊梁。
 
 截至今年第一季度，联邦财政收入比 CBO 基线预测低了 12%。工资税收入在下降，因为更少的人能以之前的薪酬水平就业。所得税收入在下降，因为正在获得的收入在结构上更低。生产率在飙升，但收益流向资本与算力，而不是劳动力。
@@ -330,8 +338,9 @@ https://substackcdn.com/image/fetch/$s_!0sEd!,f_auto,q_auto:good,fl_progressive:
 
 产出仍在那里。但它不再在回流到企业的路上先经过家庭，这意味着它也不再经过 IRS。循环流动正在破裂，而政府却被期待出手修复它。
 
-https://substackcdn.com/image/fetch/$s_!YdQQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29c19580-7ac9-4287-aea8-a8341f320152_1600x762.png
-
+![](
+![](https://substackcdn.com/image/fetch/$s_!YdQQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29c19580-7ac9-4287-aea8-a8341f320152_1600x762.png)
+)
 像每一次衰退一样，支出上升的同时收入下降。不同之处在于，这次的支出压力并非周期性的。自动稳定器是为暂时性失业设计的，而不是为结构性替代设计的。系统支付的福利默认工人会被重新吸纳。而许多人不会——至少不可能以接近他们此前工资的水平。COVID 期间，政府可以轻易接受 15% 的赤字，因为大家理解那是暂时的。如今需要政府支持的人，并不是被一场他们终将恢复的疫情击中。他们是被一种持续改进的技术所取代。
 
 政府需要在恰恰从家庭征税更少的时刻，向家庭转移更多资金。
