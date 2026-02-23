@@ -260,7 +260,8 @@ The losses hit balance sheets built to hold illiquid assets against long-duratio
 
 Compared to the banking system, insurance regulators had been docile - even complacent - but this was the wake-up call. Already uneasy about private credit concentrations at life insurers, they began downgrading the risk-based capital treatment of these assets. That forced the insurers to either raise capital or sell assets, neither of which was possible at attractive terms in a market already seizing up.
 
-> **NEW YORK, IOWA STATE REGULATORS MOVE TO TIGHTEN CAPITAL TREATMENT FOR CERTAIN PRIVATELY RATED CREDIT HELD BY LIFE INSURERS; NAIC GUIDANCE EXPECTED TO INCREASE RBC FACTORS AND TRIGGER ADDITIONAL SVO SCRUTINY**  
+> **NEW YORK, IOWA STATE REGULATORS MOVE TO TIGHTEN CAPITAL TREATMENT FOR CERTAIN PRIVATELY RATED CREDIT HELD BY LIFE INSURERS**  
+> **NAIC GUIDANCE EXPECTED TO INCREASE RBC FACTORS AND TRIGGER ADDITIONAL SVO SCRUTINY**  
 > _Reuters, Nov 2027_
 
 When Moody’s put Athene’s financial strength rating on negative outlook, Apollo’s stock dropped 22% in two sessions. Brookfield, KKR, and the others followed.
