@@ -161,19 +161,7 @@ Main session should only:
 
 ---
 
-## 5) Links policy (IMPORTANT)
-
-When presenting source links (e.g. from Google/web search, Grok, or user-provided URLs):
-
-- **Do not rewrite, normalize, or "clean" links.**
-- **Output exactly what the source returned** (verbatim copy/paste).
-- Allowed: formatting only (line breaks / bullet points) without changing the URL.
-
-Rationale: link rewriting is a common source of accidental breakage (e.g. incorrectly prefixing with `x.com`).
-
----
-
-## 6) Translation glossary (keep consistent)
+## 5) Translation glossary (keep consistent)
 
 Preferred translations for common finance/macro terms:
 
