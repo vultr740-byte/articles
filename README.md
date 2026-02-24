@@ -44,6 +44,8 @@ items:
 **Homepage rules**
 - New posts go to the top (most recent first).
 - `zh` is the default click target for the title.
+- **Homepage language rule:** Homepage titles are Chinese.
+- **Homepage link rule:** Keep the homepage list consistent. By default, **do not show per-post language toggles on the homepage** (no `en:` field in `index.html`). Users can switch languages from the post landing page.
 - Keep titles short to avoid layout overflow.
 
 ---
