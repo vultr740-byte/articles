@@ -1,106 +1,161 @@
 # Articles
 
-A tiny GitHub Pages repo for sharing articles (original + translations).
+A minimal GitHub Pages repo for publishing bilingual posts (EN + 中文) with a predictable structure and a repeatable workflow.
 
-## Before you publish (MANDATORY)
+> **Rule 0 (MANDATORY):** Before starting any new post, read this README top-to-bottom.
 
-**Read this README first.** If the task involves web fetching, full-text translation, images, or multiple file writes, **use a subagent** and follow the checklist below.
+---
 
-### 1) When to use a subagent
+## 1) What this repo is
 
-Use a subagent by default for anything that is likely to take >30s or can fail midway:
+- Purpose: publish shareable, fast-loading posts.
+- Inputs: a URL (blog/substack/docs/tweet thread, etc.) and optionally your own notes.
+- Outputs:
+  - An English/original post (`en.md`)
+  - A Chinese translation (`zh.md`)
+  - Index updated so the post appears on the homepage
 
-- Browser automation / web extraction
-- Full-text translation
-- Multi-file edits (post + index + assets)
-- Any workflow that may require retries
+---
 
-### 2) Workflow (fetch → verify → translate → verify → publish)
+## 2) Repository layout
 
-#### A. Fetch & snapshot
+```
+.
+├─ index.md                     # Homepage directory (list of posts)
+├─ posts/
+│  └─ YYYY-MM-DD-<slug>/        # One post directory per article
+│     ├─ en.md                  # English/original
+│     ├─ zh.md                  # Chinese translation
+│     └─ index.html             # Post landing page (links to en/zh)
+├─ assets/                      # Site CSS
+└─ tmp/                         # Workspace scratch (never publish)
+```
 
-1. Fetch/extract the source article.
-2. Save a **verbatim extraction snapshot** under `tmp/` (outside of `posts/`) so you always have a ground-truth reference.
-3. Verify the snapshot is complete:
-   - Contains the ending line(s)
-   - Contains the acknowledgements section (if any)
-   - Reasonable file size / line count (no truncation)
+**Slug rules**
+- Use lowercase, hyphen-separated.
+- Prefer something short and stable (e.g. `2026-02-23-2028gic`).
 
-#### B. Translate (strict segmented translation)
+---
 
-**Never translate an entire long article in one shot.**
+## 3) Standard front matter
 
-- Translate in **small chunks** (1–2 paragraphs at a time).
-- Write chunk outputs to temporary files (e.g. `tmp/zh_parts/part-001.md`) and only assemble the final `zh.md` at the end.
-- Avoid repeated overwrite of `zh.md` while translating.
-
-#### C. Assemble final files
-
-- `posts/<slug>/en.md`: English/original content
-- `posts/<slug>/zh.md`: Chinese translation
-- Use YAML front matter at the top of both:
+Both `en.md` and `zh.md` MUST start with:
 
 ```yaml
 ---
-title: "..."
+title: "<title>"
 source: "https://..."
 date: "YYYY-MM-DD"
 ---
 ```
 
-#### D. Verification before commit
+**Important**
+- Do **not** add a duplicate H1 (`# Title`) in the body if the site already renders the title from front matter.
+- `date` is the publish date for this repo (not necessarily the article’s original publication date).
 
-Run these checks before committing:
+---
 
-1) **Completeness**
-- `zh.md` contains the translated equivalent of the ending section (and acknowledgements if present).
+## 4) Publishing workflow (fetch → verify → translate → verify → publish)
 
-2) **No mixed-language body**
-- No English paragraphs in `zh.md` (allow: tickers, proper nouns, URLs).
+### 4.1 Use a subagent (default)
 
-3) **No duplicate titles**
-- If the site layout already renders the title from front matter, **do not add an extra `# Title`** in the body.
+Use a subagent for anything likely to take >30s or fail midway:
 
-4) **Images render correctly**
-- No raw Substack image URLs as plain text.
+- Web extraction / browser automation
+- Full-text translation
+- Multi-file edits (post + index + assets)
+- Any process needing retries
+
+Main session should only:
+- confirm output format
+- review results
+- approve final publish
+
+### 4.2 Fetch & snapshot (MUST)
+
+1) Fetch/extract the source text.
+2) Save a verbatim extraction snapshot under `tmp/` (never under `posts/`).
+   - Example: `tmp/sources/<slug>.md`
+3) Verify snapshot completeness:
+- Contains an ending section (not cut off)
+- Contains acknowledgements/footnotes if present
+- Reasonable file size/line count
+
+### 4.3 Translate (STRICT segmented translation)
+
+**Never translate a long article in one shot.**
+
+- Translate in small chunks (1–2 paragraphs).
+- Write chunk outputs to `tmp/zh_parts/<slug>/part-001.md` etc.
+- Assemble `posts/<slug>/zh.md` only after all chunks exist.
+
+### 4.4 Assemble post files
+
+- `posts/<slug>/en.md` — original/English
+- `posts/<slug>/zh.md` — Chinese translation
+- `posts/<slug>/index.html` — landing page
+- `index.md` — add entry
+
+### 4.5 Verification checklist (MUST do before commit)
+
+#### A) Completeness
+- `zh.md` includes the translated ending (and acknowledgements if any)
+
+#### B) No mixed-language body
+- No English paragraphs in `zh.md` (allowed: proper nouns, tickers, URLs)
+
+#### C) Headline formatting
+- Convert long “headline | source” lines into **blockquote** with line breaks
+
+#### D) Images
+- No raw Substack image URLs as plain text
 - Use Markdown embeds: `![](https://...)`
-- No broken nested image syntax like:
-  - `![](\n![](url)\n)`
+- No broken nested image syntax (e.g. `![](\n![](url)\n)`)
+- Global CSS should keep images within container width
 
-5) **Long headlines don’t overflow**
-- Convert long “headline | source” lines into blockquotes with line breaks.
+#### E) No editorial/process notes in body
+- Do not include: “fetched at … / extracted via … / tool name …”
 
-6) **No editorial notes in body**
-- Don’t include “fetched at … / extracted via …” in the article body.
+#### F) Source placement
+- Keep `source:` in front matter.
+- At the end of the post body, add:
 
-### 3) Style glossary (keep consistent)
+```md
+---
 
-Preferred translations for key finance/macro terms:
+来源：https://...
+```
+
+---
+
+## 5) Translation glossary (keep consistent)
+
+Preferred translations for common finance/macro terms:
 
 - self-reinforcing loop / feedback loop (in this article’s sense) → **自我强化回路**
-- money-good → **钱好资产** (first use: add a short parenthetical explanation)
+- money-good → **钱好资产**（首次出现可括注：接近现金、极低违约风险）
 - interchange (card payments) → **交换手续费/交换费率**
 - forward deployed engineers → **前置交付/驻场部署工程师**
 
-### 4) Commit & push
+---
 
-- Commit message should state what changed (e.g. "Add post …", "Fix zh translation terms", "Embed images").
+## 6) Commit & push
+
+- Commit messages should describe the change:
+  - `Add post: <slug>`
+  - `Fix zh translation terms`
+  - `Embed images`
+  - `Constrain images width`
 - Push to `main`.
-- After pushing, quickly spot-check the live page (cache may take a few minutes).
+- After push, spot-check the live page (cache may take 1–5 minutes).
 
-## Structure
+Site URL:
+- https://vultr740-byte.github.io/articles/
 
-- `index.md`: homepage / directory
-- `posts/<slug>/en.md`: original
-- `posts/<slug>/zh.md`: Chinese translation
+---
 
-## Publishing
-
-Enable GitHub Pages:
+## 7) GitHub Pages setup
 
 - Repo → Settings → Pages
-- Source: **Deploy from a branch**
+- Source: Deploy from a branch
 - Branch: `main` / Folder: `/ (root)`
-
-Then your site will be available at:
-`https://vultr740-byte.github.io/articles/`
