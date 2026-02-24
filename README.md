@@ -17,7 +17,38 @@ A minimal GitHub Pages repo for publishing bilingual posts (EN + 中文) with a 
 
 ---
 
-## 2) Repository layout
+## 2) Homepage (index)
+
+The homepage is powered by `index.html` front matter.
+
+- The list of posts is maintained in `index.html` under `items:`.
+- Each item can have:
+  - `date: "YYYY-MM-DD"`
+  - `title: "..."`
+  - `zh: "/posts/<slug>/zh"` (required)
+  - `en: "/posts/<slug>/en"` (optional)
+
+Example:
+
+```yaml
+---
+title: "Articles"
+items:
+  - date: "2026-02-23"
+    title: "THE 2028 GLOBAL INTELLIGENCE CRISIS"
+    en: "/posts/2026-02-23-2028gic/en"
+    zh: "/posts/2026-02-23-2028gic/zh"
+---
+```
+
+**Homepage rules**
+- New posts go to the top (most recent first).
+- `zh` is the default click target for the title.
+- Keep titles short to avoid layout overflow.
+
+---
+
+## 3) Repository layout
 
 ```
 .
