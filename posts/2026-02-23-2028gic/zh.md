@@ -4,8 +4,6 @@ source: "https://www.citriniresearch.com/p/2028gic"
 date: "2026-02-23"
 ---
 
----
-
 如果我们的 AI 看多继续被证明是对的……而这实际上却是利空的呢？
 
 以下内容是一个情景设想，而非预测。这不是“熊市色情文学”，也不是 AI 末日论者的同人小说。本文唯一的意图，是对一个相对少被探讨的情景进行建模。我们的朋友 Alap Shah 提出了这个问题，我们一起头脑风暴出了答案。我们写了这一部分，他写了另外两部分，你可以在[这里](https://open.substack.com/pub/alapshah1/p/the-global-intelligence-crisis?r=1g6uar&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)读到。

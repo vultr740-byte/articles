@@ -47,6 +47,7 @@ items:
 - **Homepage language rule:** Homepage titles are Chinese.
 - **Homepage link rule:** Keep the homepage list consistent. By default, **do not show per-post language toggles on the homepage** (no `en:` field in `index.html`). Users can switch languages from the post landing page.
 - Keep titles short to avoid layout overflow.
+- Optional: if you ever add `en:` back, ensure the homepage row stays mobile-friendly (no overflow).
 
 ---
 
@@ -54,7 +55,7 @@ items:
 
 ```
 .
-├─ index.md                     # Homepage directory (list of posts)
+├─ index.html                   # Homepage (list of posts via front matter)
 ├─ posts/
 │  └─ YYYY-MM-DD-<slug>/        # One post directory per article
 │     ├─ en.md                  # English/original
@@ -127,7 +128,7 @@ Main session should only:
 - `posts/<slug>/en.md` — original/English
 - `posts/<slug>/zh.md` — Chinese translation
 - `posts/<slug>/index.html` — landing page
-- `index.md` — add entry
+- `index.html` — add entry under `items:` (homepage list)
 
 ### 4.5 Verification checklist (MUST do before commit)
 
