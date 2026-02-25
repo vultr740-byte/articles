@@ -1,5 +1,7 @@
 ---
 title: "BTC 实用交易手册：Gamma 暴露"
+description: "从 BTC 实用交易手册：用 Gamma 暴露（GEX）理解关键支撑/阻力位如何与期权对冲流共同影响波动与走势。"
+og_image: "/posts/2026-02-25-coinbase-btc-practical-playbook-gamma-exposure/og.png"
 source: "https://x.com/coinbaseinsto/status/2026387113986670743"
 date: "2026-02-25"
 ---

@@ -1,5 +1,7 @@
 ---
 title: "BTC practical playbook: Gamma Exposure"
+description: "How gamma exposure (GEX) reshapes short-term market structure around key BTC support/resistance levels—and what it implies for positioning."
+og_image: "/posts/2026-02-25-coinbase-btc-practical-playbook-gamma-exposure/og.png"
 source: "https://x.com/coinbaseinsto/status/2026387113986670743"
 date: "2026-02-25"
 ---
