@@ -4,8 +4,6 @@ source: "https://www.citriniresearch.com/p/2028gic"
 date: "2026-02-23"
 ---
 
-> Note: Images are embedded from the original Substack post.
-
 What if our AI bullishness continues to be right...and what if that’s actually bearish?
 
 What follows is a scenario, not a prediction. This isn’t bear porn or AI doomer fan-fiction. The sole intent of this piece is modeling a scenario that’s been relatively underexplored. Our friend Alap Shah posed the question, and together we brainstormed the answer. We wrote this part, and he’s written two others you can find [here](https://open.substack.com/pub/alapshah1/p/the-global-intelligence-crisis?r=1g6uar&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true).
