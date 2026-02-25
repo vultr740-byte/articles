@@ -3,7 +3,42 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    {%- assign page_title = page.title | default: site.title -%}
+    {%- assign page_desc = page.description | default: page.excerpt | default: site.description -%}
+    {%- assign page_desc = page_desc | strip_html | strip | replace: "\n", " " -%}
+    {%- if page_desc and page_desc.size > 200 -%}
+      {%- assign page_desc = page_desc | truncate: 200 -%}
+    {%- endif -%}
+
+    {%- assign og_image = page.og_image | default: site.og_image -%}
+    {%- unless og_image -%}
+      {%- assign og_image = '/assets/og-default.svg' -%}
+    {%- endunless -%}
+    {%- assign og_image_abs = og_image | absolute_url -%}
+
+    <title>{{ page_title }}</title>
+    {%- if page_desc -%}
+      <meta name="description" content="{{ page_desc }}" />
+    {%- endif -%}
+
+    <!-- Open Graph / Twitter cards -->
+    <meta property="og:site_name" content="{{ site.title | default: 'Articles' }}" />
+    <meta property="og:title" content="{{ page_title }}" />
+    {%- if page_desc -%}
+      <meta property="og:description" content="{{ page_desc }}" />
+    {%- endif -%}
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:image" content="{{ og_image_abs }}" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ page_title }}" />
+    {%- if page_desc -%}
+      <meta name="twitter:description" content="{{ page_desc }}" />
+    {%- endif -%}
+    <meta name="twitter:image" content="{{ og_image_abs }}" />
+
     <link rel="stylesheet" href="{{ '/assets/site-v2.css' | relative_url }}" />
   </head>
   <body>
