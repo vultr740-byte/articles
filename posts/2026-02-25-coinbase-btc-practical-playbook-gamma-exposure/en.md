@@ -8,6 +8,8 @@ We shared a report this month introducing a custom heatmap from our BTC Playbook
 
 > **Chart 1. BTC support and resistance key levels**
 
+![](https://pbs.twimg.com/media/HB4A-JGa8AEAuPx.png)
+
 ---
 
 This week, we add an additional layer of insight to the key levels: gamma exposure. Gamma exposure turns the options market into a “hidden liquidity provider” that can either dampen price swings or amplify them, so it helps investors choose between range trades (buying support/selling resistance) and breakout trades (entering at levels that anticipate a new trend).
@@ -21,6 +23,8 @@ In other words, high positive gamma usually means the market self-stabilizes nea
 High negative gamma usually means the market destabilizes because hedgers tend to buy as price rises and sell as price falls. In negative gamma regions, the dominant hedging behavior can flip into a trend amplifier. Rising BTC prices force hedgers to buy more while falling prices force hedgers to sell more. That “buy strength / sell weakness” loop can turn ordinary breaks into fast repricing and liquidation-style cascades. For positioning, negative gamma raises the value of convexity and reduces the reliability of buying support or shorting resistance on a first retest.
 
 > **Chart 2. BTC options gamma exposure (GEX)**
+
+![](https://pbs.twimg.com/media/HB4BC4aaUAA_e-H.png)
 
 ---
 
