@@ -107,7 +107,7 @@ a:hover { text-decoration: underline; }
 /* Content */
 .page-content { padding: 24px 0 0; }
 
-.post-title { margin: 0 0 16px; font-size: 36px; line-height: 1.2; }
+.post-title { margin: 0 0 16px; font-size: 30px; line-height: 1.2; }
 
 /* Home: div-based layout (no ul/li bullets) */
 .post-item { padding: 28px 0; border-bottom: 1px solid var(--border); }
@@ -131,7 +131,7 @@ a:hover { text-decoration: underline; }
 /* On small screens, stack home rows */
 @media (max-width: 640px) {
   .post-row { flex-direction: column; align-items: flex-start; gap: 8px; }
-  .post-title { font-size: 36px; line-height: 1.15; }
+  .post-title { font-size: 28px; line-height: 1.15; }
   .post-date { font-size: 16px; }
 }
 
