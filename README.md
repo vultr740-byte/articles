@@ -132,6 +132,11 @@ Main session should only:
 
 ### 4.5 Verification checklist (MUST do before commit)
 
+#### G) Cleanup tmp artifacts (MUST)
+- After publishing, remove any post-specific leftovers under `tmp/` (e.g. `tmp/zh_parts/<slug>/`, `tmp/sources/<slug>.md`).
+- `posts/` must only contain `en.md`, `zh.md`, and `index.html` for each slug.
+
+
 #### A) Completeness
 - `zh.md` includes the translated ending (and acknowledgements if any)
 
