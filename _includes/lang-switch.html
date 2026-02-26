@@ -2,9 +2,9 @@
 {% if p contains '/posts/' %}
   {% if p contains '/en' %}
     {% assign other = p | replace: '/en.html', '/zh.html' | replace: '/en', '/zh' %}
-    <a class="lang-switch" href="{{ other }}">中文</a>
+    <a class="lang-switch" href="{{ other | relative_url }}">中文</a>
   {% elsif p contains '/zh' %}
     {% assign other = p | replace: '/zh.html', '/en.html' | replace: '/zh', '/en' %}
-    <a class="lang-switch" href="{{ other }}">English</a>
+    <a class="lang-switch" href="{{ other | relative_url }}">English</a>
   {% endif %}
 {% endif %}
