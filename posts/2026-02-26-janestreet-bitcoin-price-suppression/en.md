@@ -1,8 +1,14 @@
 ---
 title: "Jane Street and the suppression machine behind Bitcoin’s price"
+description: "A lawsuit-centered narrative tying Terra/UST insider-trading allegations, systematic 10am sell programs, and derivatives positioning to claims of Bitcoin price suppression."
 source: "https://x.com/1914ad/status/2026757796390449382"
 date: "2026-02-26"
 ---
+
+> **TL;DR**
+> - The piece argues BTC “should” be far higher, and frames the explanation around a Manhattan federal lawsuit.
+> - It links three threads: (1) alleged Terra/UST inside-info flow via “Bryce’s Secret,” (2) repeated 10am sell programs through late 2025, and (3) a derivatives book that could turn a large BTC ETF position into a suppression tool.
+> - All threads are presented as converging on Jane Street Capital (as allegations/narrative, not proven fact).
 
 Bitcoin should be at least $150,000 right now and everyone knows it.
 
