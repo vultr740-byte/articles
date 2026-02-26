@@ -5,7 +5,7 @@ source: "https://x.com/1914ad/status/2026757796390449382"
 date: "2026-02-26"
 ---
 
-> **TL;DR**  This piece argues BTC “should” be far higher and frames the explanation around a Manhattan federal lawsuit, connecting three threads—alleged Terra/UST inside-info flow via “Bryce’s Secret,” repeated 10am sell programs through late 2025, and an undisclosed derivatives book that could turn a large BTC ETF position into a suppression tool—while presenting them as converging on Jane Street Capital (as allegations/narrative, not proven fact).
+**TL;DR:** This piece argues BTC “should” be far higher and frames the explanation around a Manhattan federal lawsuit, connecting three threads—alleged Terra/UST inside-info flow via “Bryce’s Secret,” repeated 10am sell programs through late 2025, and an undisclosed derivatives book that could turn a large BTC ETF position into a suppression tool—while presenting them as converging on Jane Street Capital (as allegations/narrative, not proven fact).
 
 Bitcoin should be at least $150,000 right now and everyone knows it.
 
