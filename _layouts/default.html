@@ -45,7 +45,7 @@
     <!-- Force redeploy on meta changes (helps some crawlers bust cache) -->
     <meta name="build" content="{{ site.time | date_to_xmlschema }}" />
 
-    <link rel="stylesheet" href="{{ '/assets/site-v2.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/site-v2.css' | relative_url }}?v={{ site.time | date: '%s' }}" />
   </head>
   <body>
     {% include header.html %}
