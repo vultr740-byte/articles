@@ -15,7 +15,8 @@
       </label>
 
       <div class="trigger">
-        <a class="page-link" href="{{ "/" | relative_url }}">Articles</a>
+        {%- comment -%} base_prefix computed in layout {%- endcomment -%}
+        <a class="page-link" href="{{ base_prefix }}/">Articles</a>
       </div>
     </nav>
   </div>
