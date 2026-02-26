@@ -78,6 +78,8 @@ Both `en.md` and `zh.md` MUST start with:
 ```yaml
 ---
 title: "<title>"
+description: "<one-sentence summary for link previews>"  # recommended
+og_image: "/posts/<slug>/og.png"                            # optional, recommended when available
 source: "https://..."
 date: "YYYY-MM-DD"
 ---
@@ -139,6 +141,7 @@ Main session should only:
 
 #### A) Completeness
 - `zh.md` includes the translated ending (and acknowledgements if any)
+- **TL;DR exists** at the top of both `en.md` and `zh.md` (see rule below)
 
 #### B) No mixed-language body
 - No English paragraphs in `zh.md` (allowed: proper nouns, tickers, URLs)
@@ -146,7 +149,19 @@ Main session should only:
 #### C) Headline formatting
 - Convert long “headline | source” lines into **blockquote** with line breaks
 
-#### D) Images
+#### D) TL;DR (MANDATORY)
+Every post **must** include a TL;DR block near the top of the body (immediately after front matter), as **one single paragraph** (no lists / no multiple paragraphs).
+
+Use this exact markup so styling stays consistent:
+
+```md
+<div class="tldr"><strong>TL;DR：</strong> 一段话概括全文。</div>
+```
+
+- English version uses `TL;DR:`
+- Chinese version uses `TL;DR：`
+
+#### E) Images
 - No raw Substack image URLs as plain text
 - Use Markdown embeds: `![](https://...)`
 - No broken nested image syntax (e.g. `![](\n![](url)\n)`)
