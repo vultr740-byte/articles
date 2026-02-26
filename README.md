@@ -170,15 +170,21 @@ Use this exact markup so styling stays consistent:
 #### E) No editorial/process notes in body
 - Do not include: “fetched at … / extracted via … / tool name …”
 
-#### F) Source placement
-- Keep `source:` in front matter.
-- At the end of the post body, add:
+#### F) Footer normalization (MANDATORY)
+Keep the post footer consistent and machine-checkable:
+
+- The footer must appear **exactly once** and be the **final block** of the file.
+- Footer format (exact):
 
 ```md
 ---
 
 来源：https://...
 ```
+
+Rules:
+- No duplicate separators (avoid `---` twice in a row).
+- No extra content after `来源：...`.
 
 ---
 
