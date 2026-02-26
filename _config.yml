@@ -1,4 +1,9 @@
 title: ""
 description: ""
-# NOTE: We vendor our own minimal layout + CSS and do not rely on theme pipelines.
-# This keeps GitHub Pages (deploy-from-branch) behavior predictable.
+
+# GitHub Pages serves this repo under /articles; Vercel serves at /.
+# Use an env var to keep one repo working in both places.
+baseurl: "${JEKYLL_BASEURL}"
+
+# Pretty permalinks so /posts/<slug>/zh works on any static host.
+permalink: pretty
