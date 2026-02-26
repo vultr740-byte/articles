@@ -1,13 +1,8 @@
 title: ""
 description: ""
 
-# GitHub Pages serves this repo under /articles; Vercel serves at /.
-# Use an env var to keep one repo working in both places.
-baseurl: ""
+# GitHub Pages serves this repo under /articles
+baseurl: "/articles"
 
-# If you need a different baseurl (e.g. /articles on GitHub Pages), set it at build time:
-#   JEKYLL_ENV=production bundle exec jekyll build --baseurl /articles
-
-
-# Pretty permalinks so /posts/<slug>/zh works on any static host.
+# Pretty permalinks so /posts/<slug>/zh works.
 permalink: pretty
