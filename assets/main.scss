@@ -77,21 +77,12 @@ a:hover { text-decoration: underline; }
 .menu-icon { display: inline-flex; align-items: center; justify-content: center; }
 .menu-icon > svg { display: block; }
 
-/* Dropdown */
-.trigger {
-  display: none;
-  position: absolute;
-  top: 44px;
-  right: 0;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 8px 0;
-  min-width: 160px;
-  z-index: 20;
-}
-
-.nav-trigger:checked ~ .trigger { display: block; }
+/* Dropdown
+   NOTE: we intentionally hide the dropdown and make the hamburger a direct
+   "home" link to avoid a popover menu on post detail pages.
+*/
+.trigger { display: none !important; }
+.nav-trigger:checked ~ .trigger { display: none !important; }
 
 .page-link {
   display: block;
