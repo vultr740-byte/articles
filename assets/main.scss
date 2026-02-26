@@ -158,6 +158,19 @@ pre, code {
   word-break: break-word;
 }
 
+/* TL;DR callout */
+.tldr {
+  margin: 16px 0 22px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--link);
+  border-radius: 10px;
+  background: rgba(15, 23, 42, 0.04);
+  font-size: 0.95em;
+  line-height: 1.55;
+}
+.tldr strong { font-weight: 700; }
+
 /* Images: never overflow the content column */
 .post-content img,
 .page-content img {
