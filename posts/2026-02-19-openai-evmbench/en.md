@@ -1,6 +1,9 @@
 ---
 title: "Introducing EVMbench"
+description: "OpenAI and Paradigm introduce EVMbench, a benchmark that evaluates AI agents on detecting, patching, and exploiting smart-contract vulnerabilities."
 ---
+
+<div class="tldr"><strong>TL;DR:</strong> OpenAI and Paradigm introduce EVMbench, a benchmark built from 120 real smart-contract vulnerabilities to evaluate AI agents in three modes—detecting issues, patching code while preserving functionality, and executing exploit attacks—along with a Rust harness and notes on limitations and why defensive capability measurement matters.</div>
 
 Smart contracts routinely secure $100B+ in open-source crypto assets. As AI agents improve at reading, writing, and executing code, it becomes increasingly important to measure their capabilities in economically meaningful environments, and to encourage the use of AI systems defensively to audit and strengthen deployed contracts.
 Together with [Paradigm](https://www.paradigm.xyz), we’re introducing EVMbench, a benchmark evaluating the ability of AI agents to detect, patch, and exploit high-severity smart contract vulnerabilities. EVMbench draws on 120 curated vulnerabilities from 40 audits, with most sourced from open code audit competitions. EVMbench additionally includes several vulnerability scenarios drawn from the security auditing process for the [Tempo](https://tempo.xyz/) blockchain, a purpose-built L1 designed to enable high-throughput, low-cost payments via stablecoins. These scenarios extend the benchmark into payment-oriented smart contract code, where we expect agentic stablecoin payments to grow, and help ground it in a domain of emerging practical importance.

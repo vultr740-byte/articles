@@ -6,6 +6,8 @@ source: "https://x.com/coinbaseinsto/status/2026387113986670743"
 date: "2026-02-25"
 ---
 
+<div class="tldr"><strong>TL;DR:</strong> A Coinbase analysis explains how dealer positioning and options “gamma” can influence short-term BTC price behavior, outlining common measures, regimes (positive vs negative gamma), and practical takeaways and limitations for interpreting market moves.</div>
+
 We shared a report this month introducing a custom heatmap from our BTC Playbook that quantified real supply and demand levels for bitcoin. As a quick recap, we aggregated key pivot points in market structure and volume into price bands to identify levels that repeatedly acted like support (blue) or resistance (grey) (Chart 1). These levels act as an indicator of where market interest has been established and where significant pools of resting liquidity typically gather. Based on the latest price action, the densest support cluster sits near $60k, while the first dense resistance band sits around $82k.
 
 > **Chart 1. BTC support and resistance key levels**

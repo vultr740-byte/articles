@@ -1,6 +1,9 @@
 ---
 title: "EVMbench 简介"
+description: "OpenAI 与 Paradigm 推出 EVMbench，用于评估 AI agents 在智能合约漏洞发现、修复与利用方面的能力。"
 ---
+
+<div class="tldr"><strong>TL;DR：</strong> OpenAI 与 Paradigm 推出 EVMbench：基于 40 次审计整理的 120 个智能合约高危漏洞，用于评估 AI agents 在发现、修复并利用漏洞三种模式下的能力，并介绍其评测工具链、局限性与该领域进行防御性能力衡量的重要性。</div>
 
 智能合约经常保护着价值 1000 亿美元以上的开源加密资产。随着 AI agents 在阅读、编写与执行代码方面不断改进，衡量它们在具有经济意义的环境中的能力变得愈发重要；同时，也需要鼓励以防御方式使用 AI 系统，对已部署的合约进行审计并加固。
 

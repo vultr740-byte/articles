@@ -2,7 +2,10 @@
 title: "THE 2028 GLOBAL INTELLIGENCE CRISIS"
 source: "https://www.citriniresearch.com/p/2028gic"
 date: "2026-02-23"
+description: "A scenario-based summary of the 2028 Global Investment Committee outlook and its implications for macro conditions and portfolio positioning."
 ---
+
+<div class="tldr"><strong>TL;DR:</strong> This post summarizes a long-run, scenario-based view of the 2028 Global Investment Committee outlook, highlighting key uncertainties and positioning considerations across growth, inflation, rates, and risk assets rather than making a single-point forecast.</div>
 
 What if our AI bullishness continues to be right...and what if that’s actually bearish?
 

@@ -2,7 +2,10 @@
 title: "2028 全球智能危机"
 source: "https://www.citriniresearch.com/p/2028gic"
 date: "2026-02-23"
+description: "以情景分析梳理 2028 年 GIC 的中长期宏观展望，并讨论对资产配置的潜在含义。"
 ---
+
+<div class="tldr"><strong>TL;DR：</strong> 这篇文章以情景分析的方式梳理 2028 年全球投资委员会（GIC）的中长期展望，强调增长、通胀、利率与风险资产等关键不确定性，并讨论可能的配置思路而非给出单一确定预测。</div>
 
 如果我们的 AI 看多继续被证明是对的……而这实际上却是利空的呢？
 

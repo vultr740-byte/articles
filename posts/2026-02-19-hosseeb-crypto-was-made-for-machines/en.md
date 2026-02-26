@@ -1,6 +1,9 @@
 ---
 title: "Crypto was not made for humans"
+description: "An essay-style summary of the claim that crypto is increasingly optimized for machines and automated agents, with implications for market structure and incentives."
 ---
+
+<div class="tldr"><strong>TL;DR:</strong> This post argues that many crypto systems are increasingly optimized for automated agents and machine-driven execution rather than human users, and uses that framing to discuss market structure, incentives, and what “users” may mean as on-chain activity becomes more programmatic.</div>
 
 We're a crypto fund. If anyone should believe in crypto, it's us.
 
