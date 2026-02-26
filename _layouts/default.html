@@ -4,6 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    {%- comment -%}
+    Base-prefix auto-detect (no env vars):
+    - GitHub Pages serves under /articles
+    - Vercel/Cloudflare Pages serve at /
+    {%- endcomment -%}
+    {%- assign base_prefix = '' -%}
+    {%- if page.url and page.url contains '/articles/' -%}
+      {%- assign base_prefix = '/articles' -%}
+    {%- elsif page.url == '/articles' or page.url == '/articles/' -%}
+      {%- assign base_prefix = '/articles' -%}
+    {%- endif -%}
+
     {%- assign page_title = page.title | default: site.title -%}
     {%- assign page_desc = page.description | default: page.excerpt | default: site.description -%}
     {%- assign page_desc = page_desc | strip_html | strip | replace: "\n", " " -%}
@@ -45,7 +57,7 @@
     <!-- Force redeploy on meta changes (helps some crawlers bust cache) -->
     <meta name="build" content="{{ site.time | date_to_xmlschema }}" />
 
-    <link rel="stylesheet" href="{{ '/assets/site-v2.css' | relative_url }}?v={{ site.time | date: '%s' }}" />
+    <link rel="stylesheet" href="{{ base_prefix }}/assets/site-v2.css?v={{ site.time | date: '%s' }}" />
   </head>
   <body>
     {% include header.html %}
