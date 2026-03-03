@@ -3,6 +3,8 @@ title: "Grep Is Dead: How I Made Claude Code Actually Remember Things"
 description: "Every conversation with Claude Code starts from zero. Here's how I fixed that with a local search engine and a skill that loads your full context before you type a single word."
 layout: default
 ---
+<div class="tldr"><strong>TL;DR:</strong> A practical local-memory workflow for Claude Code: index your vault with QMD, then use /recall to load the right context before you start.</div>
+
 Source (X Article): https://x.com/i/article/2028328572272742401
 
 Every conversation with Claude Code starts from zero. Here's how I fixed that with a local search engine and a skill that loads your full context before you type a single word.
@@ -151,4 +153,6 @@ Watch the full video - 42 min walkthrough with live demos.
 
 https://youtu.be/RDoTY4_xh0s
 
-Artem
+---
+
+Source: https://x.com/i/article/2028328572272742401
