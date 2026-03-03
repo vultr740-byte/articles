@@ -5,7 +5,6 @@ layout: default
 ---
 <div class="tldr"><strong>TL;DR：</strong>一套实用的本地记忆工作流：用 QMD 为知识库建索引，再用 /recall 在开工前把关键上下文自动召回，避免每次从零开始。</div>
 
-来源（X 文章）：https://x.com/i/article/2028328572272742401
 
 和 Claude Code 的每一次对话都从零开始。下面是我如何用一个本地搜索引擎和一个技能，在你敲下第一个字之前就把完整上下文加载出来。
 
