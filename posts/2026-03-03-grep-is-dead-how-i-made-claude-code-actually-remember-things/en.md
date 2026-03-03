@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Grep Is Dead: How I Made Claude Code Actually Remember Things
 
 Source (X Article): https://x.com/i/article/2028328572272742401

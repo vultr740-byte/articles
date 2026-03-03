@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Grep 已死：我是如何让 Claude Code 真的“记住”东西的
 
 来源（X 文章）：https://x.com/i/article/2028328572272742401
