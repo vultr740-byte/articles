@@ -10,27 +10,19 @@ Every conversation with Claude Code starts from zero. Here's how I fixed that wi
 
 Every conversation with Claude Code starts from zero. I had 700 sessions in 3 weeks and I don't remember what was happening back then. I'm losing control in terms of what's happening.
 
----
-
 I just open a new terminal and then what's going on. I need to somehow find all this context. What was the project, what are the decisions. I need to start from zero all the time.
 
 It gets worse mid-session. When we hit context limit at 60%, we need to compact or hand off. Then half of the decisions have been lost. Or even worse if I want to continue next day, I don't remember what was happening back then.
 
----
-
 The current paradigm of grepping over files doesn't scale. So I plugged QMD into my vault, a search engine by Tobias Lutke @tobi , CEO of Shopify. Made in Canada.
 
-The whole memory system I'm about to show you - it's a skill. Install it in 2 minutes and Claude Code already knows how to use it.
+The whole memory system I'm about to show you, it's a skill. Install it in 2 minutes and Claude Code already knows how to use it.
 
 ## QMD: A Local Search Engine for Your Vault
 
-QMD is a local search engine for your knowledge base. It indexes your Obsidian @obsdmd  vault and finds anything in under a second.
+QMD is a local search engine for your knowledge base. It indexes your Obsidian @obsdmd vault and finds anything in under a second.
 
 For each vault folder I have a QMD collection. Notes, daily entries, sessions, transcripts. One-to-one mapping. For each collection I can perform a focused search.
-
----
-
----
 
 That's it. One command, your vault is searchable.
 
@@ -43,8 +35,6 @@ QMD search was instant. Better results. Way fewer tokens. You don't have to use 
 QMD gives you three search modes. BM25 (qmd search) is deterministic full-text search. Like grep, it matches exact keywords. Unlike grep, it scores each file: how often does the word appear, and how rare is it across all your documents? A short note mentioning "sleep" five times scores higher than a 10,000-word file where "sleep" appears once. No AI, no embeddings - just math. Semantic (qmd vsearch) uses embeddings to find meaning - you can search for a concept even if the exact words aren't there. Hybrid (qmd query) combines both.
 
 I searched for "sleep" across my vault. Here's the difference.
-
----
 
 Grep found 200 files. All over the place. It finds all the files which contain the word "sleep." It even finds sleep() - a programming command that pauses code execution. Nothing to do with actual sleep. That's the problem with string matching.
 
@@ -100,9 +90,7 @@ Graph opened an interactive visualization of my whole week. Sessions as colored 
 
 Here's an example: I was exploring lunch places. I told Claude "I want to have a great lunch" and we analyzed different places to go. I stored those as activities I might want to try. A week later, I open the graph, see that session, copy those file paths into Claude Code and continue from there. The graph makes every past conversation recoverable.
 
----
 
----
 
 ## 700 sessions, all searchable
 
