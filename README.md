@@ -95,6 +95,8 @@ date: "YYYY-MM-DD"
 
 ## 4) Publishing workflow (fetch → verify → translate → verify → publish)
 
+> **Hard rule:** Treat this README as a checklist. Do not improvise. If a step is marked **MUST**, you must do it before moving on.
+
 ### 4.1 Use a subagent (default)
 
 Use a subagent for anything likely to take >30s or fail midway:
