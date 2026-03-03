@@ -1,8 +1,8 @@
 ---
+title: "Grep 已死：我是如何让 Claude Code 真的“记住”东西的"
+description: "和 Claude Code 的每一次对话都从零开始。下面是我如何用一个本地搜索引擎和一个技能，在你敲下第一个字之前就把完整上下文加载出来。"
 layout: default
 ---
-# Grep 已死：我是如何让 Claude Code 真的“记住”东西的
-
 来源（X 文章）：https://x.com/i/article/2028328572272742401
 
 和 Claude Code 的每一次对话都从零开始。下面是我如何用一个本地搜索引擎和一个技能，在你敲下第一个字之前就把完整上下文加载出来。

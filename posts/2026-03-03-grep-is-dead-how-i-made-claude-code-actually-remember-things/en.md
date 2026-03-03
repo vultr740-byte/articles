@@ -1,8 +1,8 @@
 ---
+title: "Grep Is Dead: How I Made Claude Code Actually Remember Things"
+description: "Every conversation with Claude Code starts from zero. Here's how I fixed that with a local search engine and a skill that loads your full context before you type a single word."
 layout: default
 ---
-# Grep Is Dead: How I Made Claude Code Actually Remember Things
-
 Source (X Article): https://x.com/i/article/2028328572272742401
 
 Every conversation with Claude Code starts from zero. Here's how I fixed that with a local search engine and a skill that loads your full context before you type a single word.
