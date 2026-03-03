@@ -174,6 +174,7 @@ Use this exact markup so styling stays consistent:
 Keep the post footer consistent and machine-checkable:
 
 - The footer must appear **exactly once** and be the **final block** of the file.
+- **Do not** place any “Source:” / “来源：” line at the top of the body. Source attribution belongs **only** in the footer.
 - Footer format (exact):
 
 ```md
