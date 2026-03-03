@@ -3,6 +3,8 @@
 A minimal GitHub Pages repo for publishing bilingual posts (EN + 中文) with a predictable structure and a repeatable workflow.
 
 > **Rule 0 (MANDATORY):** Before starting any new post, read this README top-to-bottom.
+> 
+> **Note:** This README is the **single source of truth** for publishing rules. Don’t follow any other docs.
 
 ---
 
